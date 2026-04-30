@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "name": "BFTF_-_Hi-Hat_Closed_Akai_s-2000_-_02.wav",
+      "path": "samples/drums/Hh/BFTF_-_Hi-Hat_Closed_Akai_s-2000_-_02.wav"
+    },
+    {
+      "name": "BFTF_-_Hi-Hat_Closed_Akai_s-2000_-_07.wav",
+      "path": "samples/drums/Hh/BFTF_-_Hi-Hat_Closed_Akai_s-2000_-_07.wav"
+    },
+    {
+      "name": "BFTF_-_Hi-Hat_Open_Akai_s-2000_-_04.wav",
+      "path": "samples/drums/Hh/BFTF_-_Hi-Hat_Open_Akai_s-2000_-_04.wav"
+    },
+    {
+      "name": "NW_NR_hat_high_spin.wav",
+      "path": "samples/drums/Hh/NW_NR_hat_high_spin.wav"
+    },
+    {
+      "name": "SS_TIF_105_hat_high_one_shot_whammy.wav",
+      "path": "samples/drums/Hh/SS_TIF_105_hat_high_one_shot_whammy.wav"
+    },
+    {
+      "name": "dhh2_hat_closed_high_live_beaut.wav",
+      "path": "samples/drums/Hh/dhh2_hat_closed_high_live_beaut.wav"
+    },
+    {
+      "name": "dhh2_hat_closed_high_live_double.wav",
+      "path": "samples/drums/Hh/dhh2_hat_closed_high_live_double.wav"
+    },
+    {
+      "name": "hihat.wav",
+      "path": "samples/drums/Hh/hihat.wav"
+    },
+    {
+      "name": "nc2_hat_one_shot_closed_high_stint.wav",
+      "path": "samples/drums/Hh/nc2_hat_one_shot_closed_high_stint.wav"
+    },
+    {
+      "name": "or_hat_one_shot_closed_high_sizzle_luyah.wav",
+      "path": "samples/drums/Hh/or_hat_one_shot_closed_high_sizzle_luyah.wav"
+    },
+    {
+      "name": "or_hat_one_shot_closed_high_sizzle_pause.wav",
+      "path": "samples/drums/Hh/or_hat_one_shot_closed_high_sizzle_pause.wav"
+    },
+    {
+      "name": "or_hat_one_shot_closed_high_tight_clip.wav",
+      "path": "samples/drums/Hh/or_hat_one_shot_closed_high_tight_clip.wav"
+    },
+    {
+      "name": "or_hat_one_shot_open_high_short_gen.wav",
+      "path": "samples/drums/Hh/or_hat_one_shot_open_high_short_gen.wav"
+    },
+    {
+      "name": "ps_hat_closed_one_shot_live_high_soft_aluminum.wav",
+      "path": "samples/drums/Hh/ps_hat_closed_one_shot_live_high_soft_aluminum.wav"
+    },
+    {
+      "name": "ps_hat_closed_one_shot_live_high_spiky.wav",
+      "path": "samples/drums/Hh/ps_hat_closed_one_shot_live_high_spiky.wav"
+    },
+    {
+      "name": "st2_hat_one_shot_closed_high_metal_electric.wav",
+      "path": "samples/drums/Hh/st2_hat_one_shot_closed_high_metal_electric.wav"
+    },
+    {
+      "name": "st2_hat_one_shot_closed_high_room_sizzla.wav",
+      "path": "samples/drums/Hh/st2_hat_one_shot_closed_high_room_sizzla.wav"
+    },
+    {
+      "name": "st2_hat_one_shot_open_high_ring_rain.wav",
+      "path": "samples/drums/Hh/st2_hat_one_shot_open_high_ring_rain.wav"
+    }
+  ]
+}

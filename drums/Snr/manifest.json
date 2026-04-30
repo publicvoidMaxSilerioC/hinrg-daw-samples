@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "name": "8bit.wav",
+      "path": "samples/drums/Snr/8bit.wav"
+    },
+    {
+      "name": "Azucar.wav",
+      "path": "samples/drums/Snr/Azucar.wav"
+    },
+    {
+      "name": "Choncho.wav",
+      "path": "samples/drums/Snr/Choncho.wav"
+    },
+    {
+      "name": "Dog House.wav",
+      "path": "samples/drums/Snr/Dog%20House.wav"
+    },
+    {
+      "name": "Le Snr.wav",
+      "path": "samples/drums/Snr/Le%20Snr.wav"
+    },
+    {
+      "name": "Lneto.wav",
+      "path": "samples/drums/Snr/Lneto.wav"
+    },
+    {
+      "name": "New Order.wav",
+      "path": "samples/drums/Snr/New%20Order.wav"
+    },
+    {
+      "name": "PacMan.wav",
+      "path": "samples/drums/Snr/PacMan.wav"
+    },
+    {
+      "name": "Parachute.wav",
+      "path": "samples/drums/Snr/Parachute.wav"
+    },
+    {
+      "name": "Rev.wav",
+      "path": "samples/drums/Snr/Rev.wav"
+    },
+    {
+      "name": "Room.wav",
+      "path": "samples/drums/Snr/Room.wav"
+    },
+    {
+      "name": "Seco.wav",
+      "path": "samples/drums/Snr/Seco.wav"
+    },
+    {
+      "name": "Shock.wav",
+      "path": "samples/drums/Snr/Shock.wav"
+    },
+    {
+      "name": "Stinky.wav",
+      "path": "samples/drums/Snr/Stinky.wav"
+    },
+    {
+      "name": "Supa.wav",
+      "path": "samples/drums/Snr/Supa.wav"
+    },
+    {
+      "name": "Uff.wav",
+      "path": "samples/drums/Snr/Uff.wav"
+    },
+    {
+      "name": "short.wav",
+      "path": "samples/drums/Snr/short.wav"
+    },
+    {
+      "name": "snare.wav",
+      "path": "samples/drums/Snr/snare.wav"
+    }
+  ]
+}

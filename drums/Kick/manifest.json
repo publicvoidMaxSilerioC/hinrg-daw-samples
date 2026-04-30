@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "name": "Apagado.wav",
+      "path": "samples/drums/Kick/Apagado.wav"
+    },
+    {
+      "name": "Boxy.wav",
+      "path": "samples/drums/Kick/Boxy.wav"
+    },
+    {
+      "name": "Bright Sharp.wav",
+      "path": "samples/drums/Kick/Bright%20Sharp.wav"
+    },
+    {
+      "name": "Chonk.wav",
+      "path": "samples/drums/Kick/Chonk.wav"
+    },
+    {
+      "name": "Love Triangle.wav",
+      "path": "samples/drums/Kick/Love%20Triangle.wav"
+    },
+    {
+      "name": "New Order.wav",
+      "path": "samples/drums/Kick/New%20Order.wav"
+    },
+    {
+      "name": "Nrgetic.wav",
+      "path": "samples/drums/Kick/Nrgetic.wav"
+    },
+    {
+      "name": "OLIVER kickwav.wav",
+      "path": "samples/drums/Kick/OLIVER%20kickwav.wav"
+    },
+    {
+      "name": "Samurai.wav",
+      "path": "samples/drums/Kick/Samurai.wav"
+    },
+    {
+      "name": "Seco.wav",
+      "path": "samples/drums/Kick/Seco.wav"
+    },
+    {
+      "name": "Snap.wav",
+      "path": "samples/drums/Kick/Snap.wav"
+    },
+    {
+      "name": "Sub.wav",
+      "path": "samples/drums/Kick/Sub.wav"
+    },
+    {
+      "name": "Sup.wav",
+      "path": "samples/drums/Kick/Sup.wav"
+    },
+    {
+      "name": "Um.wav",
+      "path": "samples/drums/Kick/Um.wav"
+    },
+    {
+      "name": "X.wav",
+      "path": "samples/drums/Kick/X.wav"
+    },
+    {
+      "name": "kick.wav",
+      "path": "samples/drums/Kick/kick.wav"
+    }
+  ]
+}

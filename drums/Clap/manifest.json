@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "name": "Al reves.wav",
+      "path": "samples/drums/Clap/Al%20reves.wav"
+    },
+    {
+      "name": "Aplauso.wav",
+      "path": "samples/drums/Clap/Aplauso.wav"
+    },
+    {
+      "name": "Cip.wav",
+      "path": "samples/drums/Clap/Cip.wav"
+    },
+    {
+      "name": "Clak.wav",
+      "path": "samples/drums/Clap/Clak.wav"
+    },
+    {
+      "name": "Dams.wav",
+      "path": "samples/drums/Clap/Dams.wav"
+    },
+    {
+      "name": "Das clap.wav",
+      "path": "samples/drums/Clap/Das%20clap.wav"
+    },
+    {
+      "name": "De Reversa.wav",
+      "path": "samples/drums/Clap/De%20Reversa.wav"
+    },
+    {
+      "name": "Flat.wav",
+      "path": "samples/drums/Clap/Flat.wav"
+    },
+    {
+      "name": "JJ.wav",
+      "path": "samples/drums/Clap/JJ.wav"
+    },
+    {
+      "name": "Rev.wav",
+      "path": "samples/drums/Clap/Rev.wav"
+    },
+    {
+      "name": "Room.wav",
+      "path": "samples/drums/Clap/Room.wav"
+    },
+    {
+      "name": "Shock.wav",
+      "path": "samples/drums/Clap/Shock.wav"
+    },
+    {
+      "name": "Short.wav",
+      "path": "samples/drums/Clap/Short.wav"
+    },
+    {
+      "name": "Small.wav",
+      "path": "samples/drums/Clap/Small.wav"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "name": "16._GTS_Jazzy_Cowbell.wav",
+      "path": "samples/drums/Bell/16._GTS_Jazzy_Cowbell.wav"
+    },
+    {
+      "name": "BULLYFINGER_ATTR_cowbell_tr808_ampex_cl_tape.wav",
+      "path": "samples/drums/Bell/BULLYFINGER_ATTR_cowbell_tr808_ampex_cl_tape.wav"
+    },
+    {
+      "name": "OLIVER_percussion_cowbell_A#.wav",
+      "path": "samples/drums/Bell/OLIVER_percussion_cowbell_A%23.wav"
+    },
+    {
+      "name": "OLIVER_percussion_cowbell_B.wav",
+      "path": "samples/drums/Bell/OLIVER_percussion_cowbell_B.wav"
+    },
+    {
+      "name": "RP_TMS_DP_Cowbell_percussion_oneshot_spirit.wav",
+      "path": "samples/drums/Bell/RP_TMS_DP_Cowbell_percussion_oneshot_spirit.wav"
+    },
+    {
+      "name": "TS_DD_VOL3_bell_timbale_middle_rattle.wav",
+      "path": "samples/drums/Bell/TS_DD_VOL3_bell_timbale_middle_rattle.wav"
+    }
+  ]
+}

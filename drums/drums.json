@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "name": "Bell",
+      "path": "samples/drums/Bell"
+    },
+    {
+      "name": "Clap", 
+      "path": "samples/drums/Clap"
+    },
+    {
+      "name": "Hh",
+      "path": "samples/drums/Hh"
+    },
+    {
+      "name": "Kick",
+      "path": "samples/drums/Kick"
+    },
+    {
+      "name": "Snr",
+      "path": "samples/drums/Snr"
+    }
+  ]
+}
