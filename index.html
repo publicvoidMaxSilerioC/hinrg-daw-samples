@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HINRG DAW</title>
+  <script src="https://unpkg.com/tone@14.7.77/build/Tone.js"></script>
+  <script type="module" crossorigin src="/assets/index-8H1Atuzz.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CSlxSAdm.css">
+</head>
+<body>
+  <!-- 🎛 SQR_1 - Top Controls -->
+  <div class="top-controls">
+    <!-- Info Button (izquierda) -->
+    <button id="infoButton">ℹ️ Info</button>
+
+    <!-- Controles centrales -->
+    <button class="rec-btn" id="recBtn" title="Iniciar/Detener grabación en tiempo real">
+      <div class="rec-circle"></div>
+    </button>
+    <button id="playBtn">▶ Play</button>
+    <button id="stopBtn">⏹ Stop</button>
+    
+    <label for="tempoInput">BPM:</label>
+    <input type="number" id="tempoInput" value="120" min="60" max="200">
+    
+    <span id="midi-status">🎹 MIDI: Desconectado</span>
+
+    <!-- Botón de Exportación (esquina superior derecha) -->
+    <button class="export-btn" id="exportBtn" title="Abrir menú de exportación">
+      EXP ▶
+    </button>
+  </div>
+
+  <!-- 🧱 SQR_2 - Main Channel Area -->
+  <div class="main-area">
+    <div class="track-area">
+      <div id="channels-container">
+        <!-- Los canales se generan dinámicamente -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔻 SQR_3 - Bottom Section -->
+  <div class="bottom-section">
+    <!-- 🎵 Sample Library -->
+    <div class="sample-panel">
+      <div class="panel-header">
+        <h3>🎵 Librería de Samples</h3>
+      </div>
+      <div class="panel-content">
+        <div id="sample-folders">
+          <!-- Carpetas de samples se cargan dinámicamente -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 🎹 Virtual Keyboard -->
+    <div class="midi-panel">
+      <div class="panel-header">
+        <h3>🎹 Teclado Virtual</h3>
+      </div>
+      <div class="panel-content">
+        <div id="keyboard">
+          <!-- Teclado se genera dinámicamente -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 🥁 Drum Machine -->
+    <div class="drum-panel">
+      <div class="panel-header">
+        <h3>🥁 Drum Machine</h3>
+      </div>
+      <div class="panel-content">
+        <div id="drum-grid">
+          <!-- Grid de drums se genera dinámicamente -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🪟 Modal Info -->
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>🎵 HINRG DAW - Información</h2>
+      
+      <h3>🎛 Controles Principales</h3>
+      <p><strong>▶ Play / ⏹ Stop:</strong> Inicia y detiene la reproducción del DAW</p>
+      <p><strong>🔴 REC:</strong> Graba todo en tiempo real (muteos, solos, notas, etc.)</p>
+      <p><strong>EXP ▶:</strong> Abre el menú de exportación para descargar proyectos</p>
+      <p><strong>BPM:</strong> Controla el tempo global (60-200 BPM)</p>
+      
+      <h3>🎵 Canales</h3>
+      <p><strong>Modo MIDI/AUD:</strong> Haz clic en el botón para alternar entre modo MIDI (síntesis) y Audio (samples)</p>
+      <p><strong>🎹 Piano Roll:</strong> Abre el editor de notas MIDI (solo en modo MIDI)</p>
+      <p><strong>Mute/Solo:</strong> Controles de silenciado y solo por canal</p>
+      <p><strong>FX:</strong> Efectos de reverb, delay, distorsión, chorus y filtro</p>
+      
+      <h3>🥁 Drum Machine</h3>
+      <p><strong>Doble clic en etiquetas:</strong> Abre la librería de samples para esa parte</p>
+      <p><strong>Click derecho en etiquetas:</strong> Mutea/desmutea la parte</p>
+      <p><strong>Celdas del grid:</strong> Haz clic para activar/desactivar pasos</p>
+      
+      <h3>🎹 Teclado Virtual</h3>
+      <p>Haz clic en las teclas para tocar notas de preview</p>
+      
+      <h3>🎵 Librería de Samples</h3>
+      <p><strong>Arrastrar y soltar:</strong> Arrastra samples a los canales o partes de drums</p>
+      <p><strong>▶ Botón:</strong> Preview del sample antes de usarlo</p>
+      
+      <h3>🎚 Consejos</h3>
+      <p>• Usa <strong>Shift + flechas</strong> en el Piano Roll para cambiar la duración de las notas</p>
+      <p>• Los canales en modo Audio sincronizan automáticamente con el tempo</p>
+      <p>• El SOLO es exclusivo: solo un canal puede estar en solo a la vez</p>
+      <p>• Graba primero con REC antes de exportar la grabación temporal</p>
+
+      <h3>Créditos</h3>
+      <ul>
+        <li>Diseño y Desarrollo: Maximiliano Silerio Cárenas</li>
+        <li>Asistencia Técnica: Danil Seager, GitHub, MGX Web Dev</li>
+        <li>Samples: Bibliotecas libres y personalizadas</li>
+        <li>Programas: Live Server, Tone.js</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Notificación de grabación en tiempo real -->
+  <div id="recNotification" class="rec-notification">
+    La grabación se guardó correctamente en la memoria temporal
+  </div>
+
+</body>
+</html>
